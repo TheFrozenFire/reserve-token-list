@@ -1,6 +1,6 @@
 {
   "name": "Reserve DTF Token List",
-  "timestamp": "2026-01-12T20:20:51Z",
+  "timestamp": "2026-01-12T20:30:32Z",
   "logoURI": "https://reserve.org/assets/logo.png",
   "keywords": [
     "reserve",
@@ -12,7 +12,7 @@
   "tags": {
     "dtf": {
       "name": "DTF",
-      "description": "Decentralized Token Folio - tokenized index backed 1:1 by digital assets"
+      "description": "Decentralized Token Folio, tokenized index backed 1:1 by digital assets"
     }
   },
   "version": {
@@ -32,7 +32,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 6607204.361416212,
+        "marketCap": 6604751.746748677,
         "fee": 0.3,
         "basketSize": 19
       }
@@ -48,7 +48,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 5450538.960504691,
+        "marketCap": 5449163.247714706,
         "fee": 1.5,
         "basketSize": 9
       }
@@ -64,7 +64,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 350757.95386080374,
+        "marketCap": 350421.5057875863,
         "fee": 0.75,
         "basketSize": 10
       }
@@ -80,7 +80,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 330495.9980448085,
+        "marketCap": 330285.9394196992,
         "fee": 0.5,
         "basketSize": 20
       }
@@ -96,7 +96,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 272380.27540016576,
+        "marketCap": 272340.1996083511,
         "fee": 2,
         "basketSize": 9
       }
@@ -112,7 +112,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 189416.4882970177,
+        "marketCap": 189304.35145270138,
         "fee": 2,
         "basketSize": 20
       }
@@ -128,7 +128,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 131805.2560038733,
+        "marketCap": 131774.0168207908,
         "fee": 2,
         "basketSize": 10
       }
@@ -144,7 +144,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 124099.38415354086,
+        "marketCap": 124091.91309251069,
         "fee": 0.25,
         "basketSize": 3
       }
@@ -160,7 +160,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 97047.3083412293,
+        "marketCap": 97022.66084766742,
         "fee": 1,
         "basketSize": 21
       }
@@ -176,7 +176,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 91000.22277178025,
+        "marketCap": 90949.12966833041,
         "fee": 0.25,
         "basketSize": 5
       }
@@ -192,7 +192,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 86319.4665673755,
+        "marketCap": 86262.81229406274,
         "fee": 2,
         "basketSize": 10
       }
@@ -208,7 +208,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 84134.84033547493,
+        "marketCap": 84035.75737256419,
         "fee": 2,
         "basketSize": 5
       }
@@ -224,7 +224,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 75208.59713312566,
+        "marketCap": 75154.54982641478,
         "fee": 2,
         "basketSize": 8
       }
@@ -240,7 +240,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 67987.8309285084,
+        "marketCap": 67903.028089591,
         "fee": 2,
         "basketSize": 8
       }
@@ -256,7 +256,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 64318.32972947743,
+        "marketCap": 64299.22021771502,
         "fee": 2,
         "basketSize": 6
       }
@@ -272,7 +272,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 33630.38186829276,
+        "marketCap": 33627.05581342469,
         "fee": 1,
         "basketSize": 10
       }
@@ -288,7 +288,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 22923.4680838533,
+        "marketCap": 22925.59325931805,
         "fee": 1,
         "basketSize": 11
       }
@@ -304,7 +304,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 16548.831555379536,
+        "marketCap": 16523.156996825623,
         "fee": 2,
         "basketSize": 10
       }
@@ -320,7 +320,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 8263.82745673274,
+        "marketCap": 8245.400739947916,
         "fee": 2,
         "basketSize": 6
       }
@@ -336,7 +336,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 6335.604796599032,
+        "marketCap": 6331.5740448443,
         "fee": 2,
         "basketSize": 20
       }
@@ -352,7 +352,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 5785.875062630333,
+        "marketCap": 5783.723109514855,
         "fee": 2,
         "basketSize": 22
       }
@@ -370,7 +370,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 6607204.361416212,
+        "marketCap": 6604751.746748677,
         "fee": 0.3,
         "basketSize": 19
       }
@@ -386,7 +386,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 5450538.960504691,
+        "marketCap": 5449163.247714706,
         "fee": 1.5,
         "basketSize": 9
       }
@@ -402,7 +402,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 350757.95386080374,
+        "marketCap": 350421.5057875863,
         "fee": 0.75,
         "basketSize": 10
       }
@@ -418,7 +418,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 330495.9980448085,
+        "marketCap": 330285.9394196992,
         "fee": 0.5,
         "basketSize": 20
       }
@@ -434,7 +434,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 272380.27540016576,
+        "marketCap": 272340.1996083511,
         "fee": 2,
         "basketSize": 9
       }
@@ -450,7 +450,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 189416.4882970177,
+        "marketCap": 189304.35145270138,
         "fee": 2,
         "basketSize": 20
       }
@@ -466,7 +466,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 131805.2560038733,
+        "marketCap": 131774.0168207908,
         "fee": 2,
         "basketSize": 10
       }
@@ -482,7 +482,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 124099.38415354086,
+        "marketCap": 124091.91309251069,
         "fee": 0.25,
         "basketSize": 3
       }
@@ -498,7 +498,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 97047.3083412293,
+        "marketCap": 97022.66084766742,
         "fee": 1,
         "basketSize": 21
       }
@@ -514,7 +514,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 91000.22277178025,
+        "marketCap": 90949.12966833041,
         "fee": 0.25,
         "basketSize": 5
       }
@@ -530,7 +530,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 86319.4665673755,
+        "marketCap": 86262.81229406274,
         "fee": 2,
         "basketSize": 10
       }
@@ -546,7 +546,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 84134.84033547493,
+        "marketCap": 84035.75737256419,
         "fee": 2,
         "basketSize": 5
       }
@@ -562,7 +562,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 75208.59713312566,
+        "marketCap": 75154.54982641478,
         "fee": 2,
         "basketSize": 8
       }
@@ -578,7 +578,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 67987.8309285084,
+        "marketCap": 67903.028089591,
         "fee": 2,
         "basketSize": 8
       }
@@ -594,7 +594,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 64318.32972947743,
+        "marketCap": 64299.22021771502,
         "fee": 2,
         "basketSize": 6
       }
@@ -610,7 +610,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 33630.38186829276,
+        "marketCap": 33627.05581342469,
         "fee": 1,
         "basketSize": 10
       }
@@ -626,7 +626,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 22923.4680838533,
+        "marketCap": 22925.59325931805,
         "fee": 1,
         "basketSize": 11
       }
@@ -642,7 +642,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 16548.831555379536,
+        "marketCap": 16523.156996825623,
         "fee": 2,
         "basketSize": 10
       }
@@ -658,7 +658,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 8263.82745673274,
+        "marketCap": 8245.400739947916,
         "fee": 2,
         "basketSize": 6
       }
@@ -674,7 +674,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 6335.604796599032,
+        "marketCap": 6331.5740448443,
         "fee": 2,
         "basketSize": 20
       }
@@ -690,7 +690,7 @@
         "dtf"
       ],
       "extensions": {
-        "marketCap": 5785.875062630333,
+        "marketCap": 5783.723109514855,
         "fee": 2,
         "basketSize": 22
       }

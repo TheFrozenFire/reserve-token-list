@@ -75,7 +75,7 @@ jq -n \
         tags: {
             dtf: {
                 name: "DTF",
-                description: "Decentralized Token Folio - tokenized index backed 1:1 by digital assets"
+                description: "Decentralized Token Folio, tokenized index backed 1:1 by digital assets"
             }
         },
         version: {
@@ -88,3 +88,18 @@ jq -n \
     }' > "$OUTPUT_FILE"
 
 echo "Generated ${OUTPUT_FILE}"
+
+# Validate against Uniswap schema
+SCHEMA_URL="https://raw.githubusercontent.com/Uniswap/token-lists/main/src/tokenlist.schema.json"
+SCHEMA_FILE="${TEMP_DIR}/tokenlist.schema.json"
+
+echo "Validating against Uniswap token list schema..."
+curl -s "$SCHEMA_URL" -o "$SCHEMA_FILE"
+
+if npx ajv-cli validate -s "$SCHEMA_FILE" -d "$OUTPUT_FILE" --spec=draft7 --strict=false 2>&1 | grep -q "valid$"; then
+    echo "Validation passed"
+else
+    echo "Validation failed:"
+    npx ajv-cli validate -s "$SCHEMA_FILE" -d "$OUTPUT_FILE" --spec=draft7 --strict=false 2>&1
+    exit 1
+fi
