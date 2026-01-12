@@ -50,7 +50,7 @@ cat "${TEMP_DIR}"/chain_*.json | jq -s 'add | [.[] | {
         fee: .fee,
         basketSize: (.basket | length)
     }
-}]' > "${TEMP_DIR}/tokens.json"
+}] | sort_by(.extensions.marketCap) | reverse' > "${TEMP_DIR}/tokens.json"
 
 TOKEN_COUNT=$(jq 'length' "${TEMP_DIR}/tokens.json")
 echo "Total DTFs: ${TOKEN_COUNT}"
