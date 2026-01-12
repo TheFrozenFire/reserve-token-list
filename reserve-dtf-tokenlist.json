@@ -1,0 +1,699 @@
+{
+  "name": "Reserve DTF Token List",
+  "timestamp": "2026-01-12T20:14:28Z",
+  "logoURI": "https://reserve.org/assets/logo.png",
+  "keywords": [
+    "reserve",
+    "dtf",
+    "index",
+    "yield",
+    "defi"
+  ],
+  "tags": {
+    "dtf": {
+      "name": "DTF",
+      "description": "Decentralized Token Folio - tokenized index backed 1:1 by digital assets"
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x323c03c48660fe31186fa82c289b0766d331ce21",
+      "name": "Open Stablecoin Index",
+      "symbol": "OPEN",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 351233.9752095339,
+        "fee": 0.75,
+        "basketSize": 10
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x4e3b170dcbe704b248df5f56d488114ace01b1c5",
+      "name": "BTC ETH DCA Index",
+      "symbol": "BED",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 124004.96327286198,
+        "fee": 0.25,
+        "basketSize": 3
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf91384484f4717314798e8975bcd904a35fc2bf1",
+      "name": "Imagine The SMEL",
+      "symbol": "SMEL",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 90963.7453243479,
+        "fee": 0.25,
+        "basketSize": 5
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x188d12eb13a5eadd0867074ce8354b1ad6f4790b",
+      "name": "CoinDesk DeFi Select Index",
+      "symbol": "DFX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 84343.1099492897,
+        "fee": 2,
+        "basketSize": 5
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x9a1741e151233a82cf69209a2f1bc7442b1fb29c",
+      "name": "DeFi Growth Index",
+      "symbol": "DGI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 75275.3688488205,
+        "fee": 2,
+        "basketSize": 8
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x20d81101d254729a6e689418526be31e2c544290",
+      "name": "Large Cap DeFi Index",
+      "symbol": "mvDEFI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 68145.7858219246,
+        "fee": 2,
+        "basketSize": 8
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa5cdea03b11042fc10b52af9eca48bb17a2107d2",
+      "name": "RWA Index",
+      "symbol": "mvRWA",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 64371.38877850028,
+        "fee": 2,
+        "basketSize": 6
+      }
+    },
+    {
+      "chainId": 56,
+      "address": "0x2f8a339b5889ffac4c5a956787cda593b3c36867",
+      "name": "CoinMarketCap 20 Index DTF",
+      "symbol": "CMC20",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 6617810.537595226,
+        "fee": 0.3,
+        "basketSize": 19
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4da9a0f397db1397902070f93a4d6ddbc0e0e6e8",
+      "name": "CF Large Cap Index",
+      "symbol": "LCAP",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 5457771.452453916,
+        "fee": 1.5,
+        "basketSize": 9
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe00cfa595841fb331105b93c19827797c925e3e4",
+      "name": "Reserve Venionaire L1 Select DTF",
+      "symbol": "VLONE",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 330940.6326733743,
+        "fee": 0.5,
+        "basketSize": 20
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x23418de10d422ad71c9d5713a2b8991a9c586443",
+      "name": "Bloomberg Galaxy Crypto Index",
+      "symbol": "BGCI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 272687.58688585326,
+        "fee": 2,
+        "basketSize": 9
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xebcda5b80f62dd4dd2a96357b42bb6facbf30267",
+      "name": "Alpha Base Index",
+      "symbol": "ABX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 188634.14442860335,
+        "fee": 2,
+        "basketSize": 20
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x44551ca46fa5592bb572e20043f7c3d54c85cad7",
+      "name": "Clanker Index",
+      "symbol": "CLX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 131943.92697713655,
+        "fee": 2,
+        "basketSize": 10
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x89ff8f639d402839205a6bf03cc01bdffa4768b7",
+      "name": "Strategic Base Reserve by SSR",
+      "symbol": "SBR",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 97063.37275255115,
+        "fee": 1,
+        "basketSize": 21
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe8b46b116d3bdfa787ce9cf3f5acc78dc7ca380e",
+      "name": "MarketVector Token Terminal Fundamental Index",
+      "symbol": "MVTT10F",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 86421.38465883261,
+        "fee": 2,
+        "basketSize": 10
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x47686106181b3cefe4eaf94c4c10b48ac750370b",
+      "name": "Virtuals Index",
+      "symbol": "VTF",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 33756.348168465156,
+        "fee": 1,
+        "basketSize": 10
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x160c18476f6f5099f374033fbc695c9234cda495",
+      "name": "Zora Index",
+      "symbol": "ZINDEX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 22909.381970832328,
+        "fee": 1,
+        "basketSize": 11
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfe45eda533e97198d9f3deeda9ae6c147141f6f9",
+      "name": "AIndex",
+      "symbol": "AI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 16565.044036477084,
+        "fee": 2,
+        "basketSize": 10
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb8753941196692e322846cfee9c14c97ac81928a",
+      "name": "Base MemeIndexer DTF",
+      "symbol": "BDTF",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 8270.817927282991,
+        "fee": 2,
+        "basketSize": 6
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf8ef6e785473e82527908b06023ac3e401ccfdcd",
+      "name": "Club Night DTF",
+      "symbol": "CLUB",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 6344.052602964292,
+        "fee": 2,
+        "basketSize": 20
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd600e748c17ca237fcb5967fa13d688aff17be78",
+      "name": "MarketVector Digital Assets 25 Index",
+      "symbol": "MVDA25",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 5792.889070085818,
+        "fee": 2,
+        "basketSize": 22
+      }
+    }
+  ],
+  "tokenMap": {
+    "1_0x323c03c48660fe31186fa82c289b0766d331ce21": {
+      "chainId": 1,
+      "address": "0x323c03c48660fe31186fa82c289b0766d331ce21",
+      "name": "Open Stablecoin Index",
+      "symbol": "OPEN",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 351233.9752095339,
+        "fee": 0.75,
+        "basketSize": 10
+      }
+    },
+    "1_0x4e3b170dcbe704b248df5f56d488114ace01b1c5": {
+      "chainId": 1,
+      "address": "0x4e3b170dcbe704b248df5f56d488114ace01b1c5",
+      "name": "BTC ETH DCA Index",
+      "symbol": "BED",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 124004.96327286198,
+        "fee": 0.25,
+        "basketSize": 3
+      }
+    },
+    "1_0xf91384484f4717314798e8975bcd904a35fc2bf1": {
+      "chainId": 1,
+      "address": "0xf91384484f4717314798e8975bcd904a35fc2bf1",
+      "name": "Imagine The SMEL",
+      "symbol": "SMEL",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 90963.7453243479,
+        "fee": 0.25,
+        "basketSize": 5
+      }
+    },
+    "1_0x188d12eb13a5eadd0867074ce8354b1ad6f4790b": {
+      "chainId": 1,
+      "address": "0x188d12eb13a5eadd0867074ce8354b1ad6f4790b",
+      "name": "CoinDesk DeFi Select Index",
+      "symbol": "DFX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 84343.1099492897,
+        "fee": 2,
+        "basketSize": 5
+      }
+    },
+    "1_0x9a1741e151233a82cf69209a2f1bc7442b1fb29c": {
+      "chainId": 1,
+      "address": "0x9a1741e151233a82cf69209a2f1bc7442b1fb29c",
+      "name": "DeFi Growth Index",
+      "symbol": "DGI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 75275.3688488205,
+        "fee": 2,
+        "basketSize": 8
+      }
+    },
+    "1_0x20d81101d254729a6e689418526be31e2c544290": {
+      "chainId": 1,
+      "address": "0x20d81101d254729a6e689418526be31e2c544290",
+      "name": "Large Cap DeFi Index",
+      "symbol": "mvDEFI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 68145.7858219246,
+        "fee": 2,
+        "basketSize": 8
+      }
+    },
+    "1_0xa5cdea03b11042fc10b52af9eca48bb17a2107d2": {
+      "chainId": 1,
+      "address": "0xa5cdea03b11042fc10b52af9eca48bb17a2107d2",
+      "name": "RWA Index",
+      "symbol": "mvRWA",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 64371.38877850028,
+        "fee": 2,
+        "basketSize": 6
+      }
+    },
+    "56_0x2f8a339b5889ffac4c5a956787cda593b3c36867": {
+      "chainId": 56,
+      "address": "0x2f8a339b5889ffac4c5a956787cda593b3c36867",
+      "name": "CoinMarketCap 20 Index DTF",
+      "symbol": "CMC20",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 6617810.537595226,
+        "fee": 0.3,
+        "basketSize": 19
+      }
+    },
+    "8453_0x4da9a0f397db1397902070f93a4d6ddbc0e0e6e8": {
+      "chainId": 8453,
+      "address": "0x4da9a0f397db1397902070f93a4d6ddbc0e0e6e8",
+      "name": "CF Large Cap Index",
+      "symbol": "LCAP",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 5457771.452453916,
+        "fee": 1.5,
+        "basketSize": 9
+      }
+    },
+    "8453_0xe00cfa595841fb331105b93c19827797c925e3e4": {
+      "chainId": 8453,
+      "address": "0xe00cfa595841fb331105b93c19827797c925e3e4",
+      "name": "Reserve Venionaire L1 Select DTF",
+      "symbol": "VLONE",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 330940.6326733743,
+        "fee": 0.5,
+        "basketSize": 20
+      }
+    },
+    "8453_0x23418de10d422ad71c9d5713a2b8991a9c586443": {
+      "chainId": 8453,
+      "address": "0x23418de10d422ad71c9d5713a2b8991a9c586443",
+      "name": "Bloomberg Galaxy Crypto Index",
+      "symbol": "BGCI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 272687.58688585326,
+        "fee": 2,
+        "basketSize": 9
+      }
+    },
+    "8453_0xebcda5b80f62dd4dd2a96357b42bb6facbf30267": {
+      "chainId": 8453,
+      "address": "0xebcda5b80f62dd4dd2a96357b42bb6facbf30267",
+      "name": "Alpha Base Index",
+      "symbol": "ABX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 188634.14442860335,
+        "fee": 2,
+        "basketSize": 20
+      }
+    },
+    "8453_0x44551ca46fa5592bb572e20043f7c3d54c85cad7": {
+      "chainId": 8453,
+      "address": "0x44551ca46fa5592bb572e20043f7c3d54c85cad7",
+      "name": "Clanker Index",
+      "symbol": "CLX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 131943.92697713655,
+        "fee": 2,
+        "basketSize": 10
+      }
+    },
+    "8453_0x89ff8f639d402839205a6bf03cc01bdffa4768b7": {
+      "chainId": 8453,
+      "address": "0x89ff8f639d402839205a6bf03cc01bdffa4768b7",
+      "name": "Strategic Base Reserve by SSR",
+      "symbol": "SBR",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 97063.37275255115,
+        "fee": 1,
+        "basketSize": 21
+      }
+    },
+    "8453_0xe8b46b116d3bdfa787ce9cf3f5acc78dc7ca380e": {
+      "chainId": 8453,
+      "address": "0xe8b46b116d3bdfa787ce9cf3f5acc78dc7ca380e",
+      "name": "MarketVector Token Terminal Fundamental Index",
+      "symbol": "MVTT10F",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 86421.38465883261,
+        "fee": 2,
+        "basketSize": 10
+      }
+    },
+    "8453_0x47686106181b3cefe4eaf94c4c10b48ac750370b": {
+      "chainId": 8453,
+      "address": "0x47686106181b3cefe4eaf94c4c10b48ac750370b",
+      "name": "Virtuals Index",
+      "symbol": "VTF",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 33756.348168465156,
+        "fee": 1,
+        "basketSize": 10
+      }
+    },
+    "8453_0x160c18476f6f5099f374033fbc695c9234cda495": {
+      "chainId": 8453,
+      "address": "0x160c18476f6f5099f374033fbc695c9234cda495",
+      "name": "Zora Index",
+      "symbol": "ZINDEX",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 22909.381970832328,
+        "fee": 1,
+        "basketSize": 11
+      }
+    },
+    "8453_0xfe45eda533e97198d9f3deeda9ae6c147141f6f9": {
+      "chainId": 8453,
+      "address": "0xfe45eda533e97198d9f3deeda9ae6c147141f6f9",
+      "name": "AIndex",
+      "symbol": "AI",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 16565.044036477084,
+        "fee": 2,
+        "basketSize": 10
+      }
+    },
+    "8453_0xb8753941196692e322846cfee9c14c97ac81928a": {
+      "chainId": 8453,
+      "address": "0xb8753941196692e322846cfee9c14c97ac81928a",
+      "name": "Base MemeIndexer DTF",
+      "symbol": "BDTF",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 8270.817927282991,
+        "fee": 2,
+        "basketSize": 6
+      }
+    },
+    "8453_0xf8ef6e785473e82527908b06023ac3e401ccfdcd": {
+      "chainId": 8453,
+      "address": "0xf8ef6e785473e82527908b06023ac3e401ccfdcd",
+      "name": "Club Night DTF",
+      "symbol": "CLUB",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 6344.052602964292,
+        "fee": 2,
+        "basketSize": 20
+      }
+    },
+    "8453_0xd600e748c17ca237fcb5967fa13d688aff17be78": {
+      "chainId": 8453,
+      "address": "0xd600e748c17ca237fcb5967fa13d688aff17be78",
+      "name": "MarketVector Digital Assets 25 Index",
+      "symbol": "MVDA25",
+      "decimals": 18,
+      "logoURI": "https://reserve.org/assets/dtf-default.png",
+      "tags": [
+        "dtf"
+      ],
+      "extensions": {
+        "marketCap": 5792.889070085818,
+        "fee": 2,
+        "basketSize": 22
+      }
+    }
+  }
+}
