@@ -44,19 +44,11 @@ cat "${TEMP_DIR}"/chain_*.json | jq -s 'add | [.[] | {
     symbol: .symbol,
     decimals: 18,
     logoURI: (.brand.logoURI // "https://reserve.org/assets/dtf-default.png"),
-    tags: ["dtf"],
-    extensions: {
-        marketCap: .marketCap,
-        fee: .fee,
-        basketSize: (.basket | length)
-    }
-}] | sort_by(.extensions.marketCap) | reverse' > "${TEMP_DIR}/tokens.json"
+    _marketCap: .marketCap
+}] | sort_by(._marketCap) | reverse | [.[] | del(._marketCap)]' > "${TEMP_DIR}/tokens.json"
 
 TOKEN_COUNT=$(jq 'length' "${TEMP_DIR}/tokens.json")
 echo "Total DTFs: ${TOKEN_COUNT}"
-
-# Generate token map
-jq 'map({("\(.chainId)_\(.address)"): .}) | add' "${TEMP_DIR}/tokens.json" > "${TEMP_DIR}/tokenMap.json"
 
 # Generate final token list
 TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -66,25 +58,17 @@ jq -n \
     --arg timestamp "$TIMESTAMP" \
     --arg logoURI "https://reserve.org/assets/logo.png" \
     --slurpfile tokens "${TEMP_DIR}/tokens.json" \
-    --slurpfile tokenMap "${TEMP_DIR}/tokenMap.json" \
     '{
         name: $name,
         timestamp: $timestamp,
-        logoURI: $logoURI,
-        keywords: ["reserve", "dtf", "index", "yield", "defi"],
-        tags: {
-            dtf: {
-                name: "DTF",
-                description: "Decentralized Token Folio, tokenized index backed 1:1 by digital assets"
-            }
-        },
         version: {
             major: 1,
             minor: 0,
             patch: 0
         },
-        tokens: $tokens[0],
-        tokenMap: $tokenMap[0]
+        logoURI: $logoURI,
+        keywords: ["reserve", "dtf", "index", "yield", "defi"],
+        tokens: $tokens[0]
     }' > "$OUTPUT_FILE"
 
 echo "Generated ${OUTPUT_FILE}"
